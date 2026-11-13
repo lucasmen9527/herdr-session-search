@@ -1,0 +1,12 @@
+{
+  "name": "herdr-session-search",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Herdr mod: full-text search over coding agent session history",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "test": "node --test --no-warnings test/*.test.mjs",
+    "install-mod": "node scripts/install.mjs"
+  }
+}
